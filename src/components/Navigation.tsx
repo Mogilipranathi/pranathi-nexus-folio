@@ -10,7 +10,6 @@ const Navigation = () => {
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'blog', label: 'Blog' },
     { id: 'contact', label: 'Contact' }
   ];
 
@@ -77,7 +76,8 @@ const Navigation = () => {
             variant="outline"
             size="sm"
             className="glass-card border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 neon-glow"
-          >
+            onClick={() => window.open('https://drive.google.com/file/d/1ws8hobEvupS0fnQir6C_bXGduJuIqSjz/view', '_blank')}
+            >
             Resume
           </Button>
         </div>

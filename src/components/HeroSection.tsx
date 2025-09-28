@@ -10,6 +10,11 @@ const HeroSection = () => {
     }
   };
 
+  const handleDownloadResume = () => {
+    // Using your Google Drive link - converted to direct download
+    window.open('https://drive.google.com/uc?export=download&id=1ws8hobEvupS0fnQir6C_bXGduJuIqSjz', '_blank');
+  };
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -45,7 +50,7 @@ const HeroSection = () => {
               Mogili Pranathi
             </h1>
             <h2 className="font-orbitron text-2xl md:text-4xl font-medium text-primary-glow">
-              Full Stack Developer
+              AIML & Full Stack Developer
             </h2>
             <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Building intelligent, impactful, and future-ready digital solutions 
@@ -64,6 +69,7 @@ const HeroSection = () => {
               View My Work
             </Button>
             <Button
+              onClick={handleDownloadResume}
               variant="outline"
               size="lg"
               className="glass-card border-secondary/50 text-secondary hover:bg-secondary hover:text-secondary-foreground neon-glow-secondary group transition-all duration-300"

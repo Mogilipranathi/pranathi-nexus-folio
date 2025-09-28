@@ -58,21 +58,21 @@ const ContactSection = () => {
 
   const socialLinks = [
     {
-      name: 'GitHub',
+      name: 'Github',
       icon: Github,
-      url: '#',
+      url: 'https://github.com/',
       color: 'primary'
     },
     {
       name: 'LinkedIn', 
       icon: Linkedin,
-      url: '#',
+      url: 'https://www.linkedin.com/in/mogili-pranathi-3b513a292/',
       color: 'secondary'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:mogili.pranathi@example.com',
+      url: 'https://mail.google.com/mail/?view=cm&to=mogilipranathi1212@gmail.com',
       color: 'accent'
     }
   ];
@@ -181,7 +181,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">mogili.pranathi@example.com</p>
+                    <p className="text-muted-foreground">mogilipranathi1212@gmail.com</p>
                   </div>
                 </div>
 
@@ -226,13 +226,14 @@ const ContactSection = () => {
                 Download my latest resume to learn more about my experience and qualifications.
               </p>
               
-              <Button 
-                variant="outline"
-                className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground neon-glow-accent"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+           <Button 
+             variant="outline"
+             className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground neon-glow-accent"
+             onClick={() => window.open('https://drive.google.com/uc?export=download&id=1ws8hobEvupS0fnQir6C_bXGduJuIqSjz', '_blank')}
+             >
+              <Download className="mr-2 h-4 w-4" />
+              Download Resume
+            </Button>
             </div>
           </div>
         </div>
@@ -240,7 +241,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className="text-center mt-16 pt-8 border-t border-border reveal">
           <p className="text-muted-foreground">
-            © 2024 Mogili Pranathi. Built with passion and cutting-edge technology.
+            @Mogili Pranathi. Built with passion and cutting-edge technology.
           </p>
         </div>
       </div>

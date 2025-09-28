@@ -16,34 +16,31 @@ const AboutSection = () => {
 
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I'm a passionate Full Stack Developer with a deep fascination for emerging technologies 
-                and their potential to solve real-world problems. With expertise spanning from frontend 
-                frameworks to backend architectures, I specialize in creating seamless digital experiences 
-                that bridge the gap between innovative technology and user needs.
+                AIML & Full Stack Developer passionate about building intelligent solutions that 
+                solve complex problems. I specialize in creating seamless digital experiences 
+                through expertise in AI, machine learning, and full-stack development.
               </p>
               
               <p className="text-lg">
-                My journey in technology has led me through diverse domains including Machine Learning, 
-                IoT systems, and AI-powered applications. I believe in the power of intelligent systems 
-                to transform how we interact with technology, making it more intuitive, accessible, and impactful.
+                My work spans predictive analytics, NLP, IoT systems, and AI-powered applications, 
+                focusing on developing intelligent systems that enhance user experiences and drive innovation.
               </p>
               
               <p className="text-lg">
-                When I'm not coding, you'll find me exploring the latest tech trends, contributing to 
-                open-source projects, or sharing knowledge through technical writing. I'm always excited 
-                to collaborate on projects that push the boundaries of what's possible.
+                I continuously explore emerging technologies, contribute to open-source AI projects, 
+                and enjoy collaborating on cutting-edge solutions that push technological boundaries.
               </p>
             </div>
 
             {/* Tech highlights */}
             <div className="grid grid-cols-2 gap-4">
               <div className="glass-card text-center py-4">
-                <div className="text-2xl font-bold text-primary">5+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
+                <div className="text-sm text-muted-foreground">Projects</div>
               </div>
               <div className="glass-card text-center py-4">
-                <div className="text-2xl font-bold text-secondary">3+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-2xl font-bold text-secondary">AIML</div>
+                <div className="text-sm text-muted-foreground">Specialization</div>
               </div>
             </div>
           </div>
@@ -55,7 +52,7 @@ const AboutSection = () => {
               <div className="relative glass-card rounded-full p-4">
                 <img
                   src={profileImage}
-                  alt="Mogili Pranathi"
+                  alt="Mogili Pranathi - AIML & Full Stack Developer"
                   className="w-80 h-80 rounded-full object-cover"
                 />
               </div>
