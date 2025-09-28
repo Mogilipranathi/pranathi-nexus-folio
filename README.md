@@ -3,7 +3,6 @@
 A cutting-edge, glassmorphism-inspired portfolio showcasing my projects in AI, IoT, and full-stack development. Built with modern technologies and featuring a futuristic design with neon accents and smooth animations.
 
 
-
 ## 🌐 Live Demo
 
 **Live Portfolio:** [https://mogilipranathi.github.io/pranathi-nexus-folio/](https://mogilipranathi.github.io/pranathi-nexus-folio/)
