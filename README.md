@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# 🚀 Pranathi Nexus Folio - Futuristic Developer Portfolio
 
-## Project info
+A cutting-edge, glassmorphism-inspired portfolio showcasing my projects in AI, IoT, and full-stack development. Built with modern technologies and featuring a futuristic design with neon accents and smooth animations.
 
-**URL**: https://lovable.dev/projects/aa28bf59-c10d-4a3f-9115-b0989ebdd190
+![Portfolio Preview](https://mogilipranathi.github.io/pranathi-nexus-folio/og-image.jpg)
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+**Live Portfolio:** [https://mogilipranathi.github.io/pranathi-nexus-folio/](https://mogilipranathi.github.io/pranathi-nexus-folio/)
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aa28bf59-c10d-4a3f-9115-b0989ebdd190) and start prompting.
+- **🎨 Futuristic Design** - Glassmorphism effects with neon cyan, purple, and pink accents
+- **⚡ Modern Tech Stack** - Built with React, TypeScript, and Vite for optimal performance
+- **📱 Fully Responsive** - Seamless experience across all devices
+- **🎭 Smooth Animations** - CSS animations and intersection observer effects
+- **🌙 Dark Theme** - Optimized for eye comfort with high contrast elements
+- **🚀 Fast Performance** - Optimized assets and lazy loading
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+### Frontend
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** with custom glassmorphism utilities
+- **Framer Motion** for animations
+- **Lucide React** for icons
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### UI Components
+- **Shadcn/ui** for accessible components
+- **Radix UI** primitives
+- **Custom glassmorphism** design system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Deployment
+- **GitHub Pages** for hosting
+- **GitHub Actions** for CI/CD
 
-Follow these steps:
+## 📁 Project Structure
+src/
+├── components/ # React components
+│ ├── HeroSection.tsx
+│ ├── ProjectsSection.tsx
+│ ├── SkillsSection.tsx
+│ └── ContactSection.tsx
+├── pages/ # Page components
+│ ├── Index.tsx
+│ └── NotFound.tsx
+├── styles/ # Custom CSS
+│ └── globals.css
+└── App.tsx # Main app component
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎯 Featured Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🤖 AI-Powered Exam Preparation Web Application
+Intelligent question paper summarization and study assistance platform using advanced NLP and machine learning algorithms.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+**Tech:** Python, TensorFlow, React, Node.js, MongoDB
 
-**Edit a file directly in GitHub**
+### 🛡️ Women Safety IoT System
+ESP32-based real-time safety system with GPS tracking, emergency alerts, and sensor integration for enhanced security.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Tech:** ESP32, GPS, IoT Sensors, Mobile App, Real-time Alerts
 
-**Use GitHub Codespaces**
+### 🏧 ATM Simulation System
+Python-based ATM simulation with secure transaction processing, user authentication, and account management features.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Tech:** Python, OOP, File Handling, Data Structures
 
-## What technologies are used for this project?
+### 📊 Sentiment Analysis Tool
+Machine learning application for analyzing and classifying sentiment in text data using natural language processing.
 
-This project is built with:
+**Tech:** Python, NLP, Machine Learning, Text Processing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Getting Started
 
-## How can I deploy this project?
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Simply open [Lovable](https://lovable.dev/projects/aa28bf59-c10d-4a3f-9115-b0989ebdd190) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
