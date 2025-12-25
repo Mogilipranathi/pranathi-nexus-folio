@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Github, Linkedin, Mail, Send, Download, MapPin, Phone } from 'lucide-react';
+import { Github, Mail, Send, Download, MapPin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const ContactSection = () => {
@@ -22,7 +22,6 @@ const ContactSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
         title: "Error",
@@ -32,7 +31,6 @@ const ContactSection = () => {
       return;
     }
 
-    // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
       toast({
@@ -45,7 +43,6 @@ const ContactSection = () => {
 
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       toast({
         title: "Message Sent!",
@@ -60,20 +57,14 @@ const ContactSection = () => {
     {
       name: 'Github',
       icon: Github,
-      url: 'https://github.com/',
+      url: 'https://github.com/Mogilipranathi',
       color: 'primary'
-    },
-    {
-      name: 'LinkedIn', 
-      icon: Linkedin,
-      url: 'https://www.linkedin.com/in/mogili-pranathi-3b513a292/',
-      color: 'secondary'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'https://mail.google.com/mail/?view=cm&to=mogilipranathi1212@gmail.com',
-      color: 'accent'
+      url: 'mailto:mogilipranathi1212@gmail.com',
+      color: 'secondary'
     }
   ];
 
@@ -171,7 +162,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">India</p>
+                    <p className="text-muted-foreground">Hyderabad, India</p>
                   </div>
                 </div>
 
@@ -181,17 +172,12 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">mogilipranathi1212@gmail.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-accent/20 rounded-lg">
-                    <Phone className="h-5 w-5 text-accent" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Available</p>
-                    <p className="text-muted-foreground">Monday - Friday, 9AM - 6PM IST</p>
+                    <a 
+                      href="mailto:mogilipranathi1212@gmail.com" 
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      mogilipranathi1212@gmail.com
+                    </a>
                   </div>
                 </div>
               </div>
@@ -226,14 +212,14 @@ const ContactSection = () => {
                 Download my latest resume to learn more about my experience and qualifications.
               </p>
               
-           <Button 
-             variant="outline"
-             className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground neon-glow-accent"
-             onClick={() => window.open('https://drive.google.com/uc?export=download&id=1ws8hobEvupS0fnQir6C_bXGduJuIqSjz', '_blank')}
-             >
-              <Download className="mr-2 h-4 w-4" />
-              Download Resume
-            </Button>
+              <Button 
+                variant="outline"
+                className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground neon-glow-accent"
+                onClick={() => window.open('/Full stack Resume pranathi.pdf', '_blank')}
+              >
+                <Download className="mr-2 h-4 w-4" />
+                Download Resume
+              </Button>
             </div>
           </div>
         </div>
