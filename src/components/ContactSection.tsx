@@ -215,7 +215,7 @@ const ContactSection = () => {
               <Button 
                 variant="outline"
                 className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground neon-glow-accent"
-                onClick={() => window.open('file:///C:/Users/Pavan/Downloads/Mogili%20pranathi%20_.pdf',, '_blank')}
+                onClick={() => window.open('file:///C:/Users/Pavan/Downloads/Full%20stack%20Resume%20pranathi%20(7)%20(1).pdf',, '_blank')}
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
