@@ -11,8 +11,7 @@ const HeroSection = () => {
   };
 
   const handleDownloadResume = () => {
-    // Using your Google Drive link - converted to direct download
-    window.open('https://drive.google.com/uc?export=download&id=1ws8hobEvupS0fnQir6C_bXGduJuIqSjz', '_blank');
+    window.open('/Full stack Resume pranathi.pdf', '_blank');
   };
 
   return (
